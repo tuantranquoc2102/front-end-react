@@ -1,0 +1,32 @@
+.left-navigator {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 50px;
+  transition: width 0.3s ease; /* Add transition for smooth animation */
+}
+
+.left-navigator.expanded {
+  width: 100%; /* Expanded width */
+}
+
+.left-navigator h3 {
+  margin-top: 0;
+  cursor: pointer; /* Change cursor to pointer to indicate clickable */
+}
+
+.left-navigator ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-navigator .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.menu-icon {
+  width: 24px; /* Set width */
+  height: 24px; /* Set height */
+  margin-right: 10px;
+}
